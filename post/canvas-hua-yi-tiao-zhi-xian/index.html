@@ -2,24 +2,22 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | xiuui</title>
+<title>canvas画一条直线 | xiuui</title>
 <link rel="shortcut icon" href="https://fuyi00.github.io/favicon.ico?v=1604329348303">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fuyi00.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | xiuui - Atom Feed" href="https://fuyi00.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="canvas画一条直线 | xiuui - Atom Feed" href="https://fuyi00.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
-
-🏠 关于本站
-👨‍💻 博主是谁
-⛹ 兴趣爱好
-📬 联系我呀
-..." />
-    <meta name="keywords" content="" />
+    <meta name="description" content="代码
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &l..." />
+    <meta name="keywords" content="html,canvas,javascript" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -81,39 +79,64 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              canvas画一条直线
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2020-11-02
               </span>
               <span>
                 1 min read
               </span>
               
+                <a href="https://fuyi00.github.io/tag/html/" class="post-tag">
+                  # html
+                </a>
+              
+                <a href="https://fuyi00.github.io/tag/mAPtjaNlD/" class="post-tag">
+                  # canvas
+                </a>
+              
+                <a href="https://fuyi00.github.io/tag/KB2EuEe7H1/" class="post-tag">
+                  # javascript
+                </a>
+              
             </div>
+            
+              <img class="post-feature-image" src="https://fuyi00.github.io/post-images/canvas-hua-yi-tiao-zhi-xian.png" alt="">
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+                <h1 id="代码">代码</h1>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;画线&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;canvas id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
+    &lt;script&gt;
+        let canvas=document.getElementById('canvas');
+        canvas.width=400;
+        canvas.height=400;
+        let context=canvas.getContext('2d');
+        context.moveTo(100,100);
+        context.lineTo(300,300);
+        context.stroke();
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h1 id="预览">预览</h1>
+<figure data-type="image" tabindex="1"><img src="https://fuyi00.github.io/post-images/1604329203566.png" alt="" loading="lazy"></figure>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
+<li><a href="#%E4%BB%A3%E7%A0%81">代码</a></li>
+<li><a href="#%E9%A2%84%E8%A7%88">预览</a></li>
 </ul>
 
               </div>
